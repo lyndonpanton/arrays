@@ -14,7 +14,10 @@ namespace Exercise11
         /// <param name="args">command-line args</param>
         static void Main(string[] args)
         {
+            Deck deck = new Deck();
+            Card[] cards = new Card[5];
 
+            deck.Shuffle();
         }
     }
 }
