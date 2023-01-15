@@ -26,7 +26,7 @@ namespace Exercise11
             cards[0] = topCardOfDeck;
             cards[0].FlipOver();
 
-            Console.WriteLine(cards[0]);
+            cards[0].Print();
         }
     }
 }
