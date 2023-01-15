@@ -27,6 +27,16 @@ namespace Exercise11
             cards[0].FlipOver();
 
             cards[0].Print();
+
+            // problem 3
+            Card secondCardFromTopOfDeck = deck.TakeTopCard();
+
+            cards[1] = secondCardFromTopOfDeck;
+            cards[1].FlipOver();
+
+            Console.WriteLine();
+            cards[0].Print();
+            cards[1].Print();
         }
     }
 }
